@@ -1,5 +1,6 @@
 package fit;
 
+import fit.basic.Operators;
 import fit.basic.Variables;
 
 /**
@@ -12,5 +13,6 @@ public class App
     {
         System.out.println( "Hello World!" );
         Variables.testVariables();
+        Operators.testOperators();
     }
 }
